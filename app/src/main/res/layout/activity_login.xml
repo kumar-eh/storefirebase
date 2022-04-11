@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/eTVotersId"
+        android:inputType="text"
+        android:hint="Enter the Voters id"
+        android:layout_margin="40dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/eTPass"
+        android:inputType="textPassword"
+        android:hint="Enter the password"
+        android:layout_margin="40dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:layout_margin="40dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Register here"
+            android:textStyle="bold"
+            android:id="@+id/tVDirectTORegister"/>
+</LinearLayout>
+    <Button
+        android:id="@+id/btnadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin login"
+        android:layout_margin="40dp"/>
+
+</LinearLayout>
